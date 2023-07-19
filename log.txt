@@ -1,0 +1,60 @@
+git init 
+git add --a  or git add .
+git commit -m "your message"
+git commit -a -m "YOUR MESSAGE"         --> to directly commit 
+
+git clone "URL"
+git status
+rm -rf .git       --> this deletes git
+
+
+git config --global user.name "NAME"
+git config --global user.email "MAIL"
+git config --list 
+
+git rm filename       -->to delete the file
+
+
+git checkout -- FILEMAME       -->to revoke the file from previous stage
+or
+git revoke FIlENAME            -->coz I have kept an alias name for checkout as REVOKE
+
+
+git restore --staged FILENAME      --> to UNSTAGE
+or
+git unstage FILENAME             --> to UNSTAGE coz ALIAS made by me to UNSTAGE 
+
+
+
+git remote add SOMENAME URL
+git push -u origin master
+
+
+for first time go to developer options and create a personalised token and paste that in password thing asked in terminal 
+
+
+
+
+
+git config --global alias.ALIASNAME 'ORIGINAL COMMAND'
+eg: git config --global alias.revoke 'checkout --'
+
+
+git checkout -b BRANCHNAME           --> new BRANCH
+or 
+git branch NAME             -->ALIAS
+
+
+
+git checkout BRANCHNAME        ---> to switch between branches 
+or
+git switch BRANCHNME        -->ALIAS
+
+
+
+git merge BRANCHNAME       -->TO MERGE BRANCHES
+
+
+
+
+
